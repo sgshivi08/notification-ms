@@ -30,9 +30,8 @@ The Notification Microservice is responsible for sending notifications to users 
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/your-repo/notification-microservice.git
-cd notification-microservice
+git clone https://github.com/sgshivi08/notification-ms.git
+cd notification-ms
 
 
 Build the Project
