@@ -44,28 +44,6 @@ bash
 Copy code
 mvn spring-boot:run
 The application will start on port 8083 by default.
-
-API Endpoints
-Send Notification
-URL: /notifications/send
-Method: POST
-Request Body:
-json
-Copy code
-{
-    "ticketId": 1,
-    "eventName": "Sample Event",
-    "eventDate": "2024-08-04",
-    "eventLocation": "Sample Location",
-    "userName": "John Doe",
-    "ticketType": "Standard",
-    "numberOfTickets": 2,
-    "paymentAmount": 50.00,
-    "userEmail": "john.doe@example.com"
-}
-Response: 204 No Content
-
-
 Testing
 To run unit tests, use:
 
