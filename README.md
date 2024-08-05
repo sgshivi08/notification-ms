@@ -36,19 +36,17 @@ cd notification-microservice
 
 
 Build the Project
-bash
-Copy code
 mvn clean install
+
 Run the Application
-bash
-Copy code
+
 mvn spring-boot:run
+
 The application will start on port 8083 by default.
+
 Testing
 To run unit tests, use:
 
-bash
-Copy code
 mvn test
 Exception Handling
 The microservice uses Spring's @ControllerAdvice for centralized exception handling. Common exceptions are:
