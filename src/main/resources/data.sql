@@ -1,0 +1,6 @@
+-- Example data entries for the notification table
+--INSERT INTO notification (ticket_id, event_name, event_date, event_location, user_name, ticket_type, number_of_tickets, payment_amount, user_email, sent_time, status, error_message)
+--VALUES
+  --  (1, 'Tech Conference', '2024-08-01', 'Dubai Internet City', 'John Doe', 'Standard', 2, 50.0, 'john.doe@example.com', '2024-08-01 09:00:00', 'SENT', NULL),
+    --(2, 'Music Festival', '2024-08-15', 'Dubai Marina', 'Jane Smith', 'VIP', 1, 100.0, 'jane.smith@example.com', '2024-08-15 18:00:00', 'SENT', NULL),
+    --(3, 'Art Exhibition', '2024-09-10', 'Alserkal Avenue', 'Alice Brown', 'General', 4, 75.0, 'alice.brown@example.com', '2024-09-10 10:00:00', 'FAILED', 'Invalid email address');
